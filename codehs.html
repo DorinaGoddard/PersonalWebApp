@@ -1,42 +1,111 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Longest Paragraph</title>
+		<title>Car Carnival</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+		<style>
+
+li:first-child {
+    color:#32ed96;
+    font:24px;
+}
+ul:first-child {
+    color:#32ed96;
+    font:24px;
+}
+
+
+/*Basic Page Styles */
+a {
+    color:#e6d130;
+    font-size:25px;
+}
+
+body{
+    background-image:url("https://codehs.com/uploads/e357327c057f95c1c8025b33d3ec3eac");
+    background-repeat:5;
+    color:white;
+    text-align:center;
+    font-size:18px;
+}
+
+ul{
+    list-style:none;
+}
+
+h1{
+    color:#fc7d2e;
+}
+
+#featured{
+    border:7px dotted #fc7d2e;
+    
+}
+
+.nav{
+    float:left;
+    border:7px inset black;
+    width:25%;
+}
+.content{
+    float:right;
+    width:70%;
+}
+		</style>
+
+
+
+
+
+
+
+
+
+		
 	</head>
 
 	<body>
-		<h3>Which paragraph is longest?</h3>
-        <p>“The only people for me are the mad ones, the ones who are mad to live, mad to talk, mad to be saved, desirous of everything at the same time, the ones who never yawn or say a commonplace thing, but burn, burn, burn like fabulous yellow roman candles exploding like spiders across the stars.” - Jack Kerouac, On The Road</p>
-		<p>“He allowed himself to be swayed by his conviction that human beings are not born once and for all on the day their mothers give birth to them, but that life obliges them over and over again to give birth to themselves.” - Gabriel García Márquez, Love in the Time of Cholera</p>
-		<p>“Usually we walk around constantly believing ourselves. “I’m okay” we say. “I’m alright”. But sometimes the truth arrives on you and you can’t get it off. That’s when you realize that sometimes it isn’t even an answer–it’s a question. Even now, I wonder how much of my life is convinced.” - Markus Zusak, The Book Thief</p>
-		<p>“I must not fear. Fear is the mind-killer. Fear is the little-death that brings total obliteration. I will face my fear. I will permit it to pass over me and through me. And when it has gone past I will turn the inner eye to see its path. Where the fear has gone there will be nothing. Only I will remain.” - Frank Herbert, Dune</p>
-		<p>“Just remember that the things you put into your head are there forever, he said. You might want to think about that. You forget some things, dont you? Yes. You forget what you want to remember and you remember what you want to forget.” – Cormac McCarthy, The Road</p>
-		
-		<h3 id = "longest" ></h3>
-		
-		<script>
-		var list = document.getElementsByTagName("p");
-		var max = list[0].innerHTML.length;
-		var pNum = 1
-		for(var i = 0; i < list.length; i++)
-		{
-		    if(list[i].innerHTML.length > max);
-		    {
-		        max = list[i].innerHTML.length;
-		        pNum = i + 1;
-		    }
-		}
-		
-		innerHTML.length.getElementsByTagName("Mac N Cheese");
-		document.write("LongerLongest paragraph is the first");
-		
-		var longest = document.getElementById("longest");
-		//The answer shoudl be paragraph 4 for students
-		longest.innerHTML = "The longest paragraph is paragraph"  +  pNum;
-		
-		</script>
+	    <div class="title">
+	        <h1>Carl's Car Carnival Vendors</h1>
+	    </div>
+	    <div class="nav">
+	        <ul>
+	            <li><a href="AboutUs.html">About Us</a></li>
+	            <li><a href="shows.html">Show Schedule</a></li>
+	            <li><a href="home.html">Homepage</a></li>
+	        </ul>
+	    </div>
+	    <div class="content">
+    	    <h1>Food</h1>
+    	    <ul>
+    	        <li>Piping Penguin Cafe</li>
+    	        <li>Tiny Fox sandwich</li>
+    	        <li>The Angry Spoon </li>
+    	        <li>Complicated Fish Cafe</li>
+    	    </ul>
+    	    
+    	    <h1>Souvenirs</h1>
+    	        <ul>
+                    <li>The Rainy Pineapple </li>
+                    <li>Plain Alligator Gifts</li>
+                    <li>The Happy Tomato </li>
+                    <li>The Plain Duck Stationary</li>
+    	        </ul>
+    	    
+    	   <h1>Beverages</h1>
+    	        <ul>
+    	            <li>The Blue Robot Drink</li>
+    	            <li>The Red Light-Switch </li>
+    	            <li>Obtuse Lime Soda Fountain</li>
+    	        </ul> 
+    	    <h1>Auto Parts</h1>
+    	    <ul>
+    	        <li>Snow Donkey Tires</li>
+    	        <li>Pink Turtle Auto</li>
+    	        <li>Little Melon Auto</li>
+    	    </ul>
+        </div>
+	    
 	</body>
 </html>
-
-
-
