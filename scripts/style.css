@@ -11,5 +11,5 @@ iframe {
     height:100px;
     width:90%; 
     border:1px solid #ffff;
-    text-align:right;
+    align-items:right;
 }
