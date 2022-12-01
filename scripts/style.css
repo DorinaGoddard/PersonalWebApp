@@ -13,3 +13,6 @@ iframe {
     border:1px solid #ffff;
     align-items:right;
 }
+ul + ol{
+    list-style:none;
+}
