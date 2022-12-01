@@ -16,3 +16,13 @@ iframe {
 ul + ol{
     list-style:none;
 }
+.basics {
+    float:left;
+}
+
+#gripimg{
+    float:right;
+}
+.strokes {
+    font-size:20px;
+}
