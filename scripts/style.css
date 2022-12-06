@@ -1,10 +1,7 @@
-body {
+.img1 {
     background-image: url('https://media.istockphoto.com/id/818509078/photo/tennis-racket-neon-blue-style.jpg?s=612x612&w=0&k=20&c=IxuTygkzXiBVsOW0CgRaGb7ZZA1DPnnHZuCzKrkj4e0=')
 }
-.img1
-{
-    background-image:url();
-}
+
 p {
     font-family:Arial;
     font-size: 15px;
@@ -12,15 +9,17 @@ p {
 
 iframe {
     height:100px;
-    width:90%; 
+    width:100%; 
     border:1px solid #ffff;
     align-items:right;
 }
 ul + ol{
+    
     list-style:none;
 }
 .basics {
     float:left;
+    padding:0%
 }
 
 #gripimg{
