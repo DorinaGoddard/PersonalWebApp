@@ -14,16 +14,11 @@ iframe {
     align-items:right;
 }
 ul + ol{
-    
     list-style:none;
-}
-.basics {
-    float:left;
-    padding:0%
 }
 
 #gripimg{
-    float:right;
+    height: 90px;
 }
 #strokes {
     font-size:20px;
